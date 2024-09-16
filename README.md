@@ -31,7 +31,7 @@ Manali Jain
 
 ## License
 
-[Specify the license here, e.g., MIT, GPL, etc.]
+GNU V2
 
 ---
 
