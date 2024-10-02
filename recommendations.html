@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommendations</title>
+</head>
+<body>
+    <h1>Your Movie Recommendations</h1>
+    <ul>
+    {% for movie, rating in recommendations %}
+        <li>{{ movie }} (Predicted Rating: {{ rating|round(2) }})</li>
+    {% endfor %}
+    </ul>
+    <a href="/">Back to Home</a>
+</body>
+</html>
